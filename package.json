@@ -14,7 +14,8 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "gambiarra": "rm -rf .cache node_modules/.cache/babel-loader node_modules/.cache/terser-webpack-plugin && npm install"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^5.1.4",
