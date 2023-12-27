@@ -1,8 +1,11 @@
 import React from "react"
 
+const isBrowser = () => typeof window !== "undefined"
+
 let aspectRatio = 16 / 9
+let defaultWidth = 1440
 let maxWidth = 560
-let viewportWidth = window.innerWidth
+let viewportWidth = isBrowser() ? window.innerWidth : defaultWidth
 let frameWidth = viewportWidth < maxWidth ? viewportWidth * 0.9 : maxWidth
 let frameHeight = frameWidth / aspectRatio
 
