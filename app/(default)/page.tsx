@@ -7,7 +7,7 @@ import Hero from '@/components/hero'
 import Values from '@/components/values'
 import Newsletter from '@/components/newsletter'
 import About from '@/components/about'
-import Testimonials from '@/components/testimonials'
+import Meetups from '@/components/meetups'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Values />
-      <Testimonials />
+      <Meetups />
       <Newsletter />
     </>
   )
