@@ -6,15 +6,15 @@ export const metadata = {
 import Hero from '@/components/hero'
 import Values from '@/components/values'
 import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
+import About from '@/components/about'
 import Testimonials from '@/components/testimonials'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <About />
       <Values />
-      <Zigzag />
       <Testimonials />
       <Newsletter />
     </>
