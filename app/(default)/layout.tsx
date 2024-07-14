@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import PageIllustration from '@/components/page-illustration'
+import FloatingEthereumLogos from '@/components/floating-ethereum-logs'
 import Footer from '@/components/ui/footer'
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
@@ -20,6 +20,8 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
 
   return (
     <>
+      <FloatingEthereumLogos />
+
       <main className="grow">{children}</main>
 
       <Footer />
