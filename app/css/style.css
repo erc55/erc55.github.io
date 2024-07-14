@@ -26,7 +26,7 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
+      transform: translateY(-50px);
     }
     100% {
       transform: translateY(0);
@@ -34,11 +34,7 @@
 }
 
 .floating {
-    animation: float 3s ease-in-out infinite;
-}
-
-.infinite-floating {
-    animation: float infinite;
+    animation: float ease-in-out infinite;
 }
 
 .parallax {

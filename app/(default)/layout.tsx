@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import FloatingEthereumLogos from '@/components/floating-ethereum-logs'
+import FloatingEthereumLogos from '@/components/floating-ethereum-logos'
 import Footer from '@/components/ui/footer'
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
