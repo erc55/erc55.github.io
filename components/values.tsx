@@ -1,8 +1,8 @@
 export default function Values() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+      <div className="max-w-6xl mx-auto pb-4 sm:pb-6">
+        <div>
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Valores</h2>
