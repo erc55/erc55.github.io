@@ -11,14 +11,11 @@ export default function Meetups() {
             <h2 className="h2 mb-4">Encontros passados</h2>
           </div>
 
-          {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-4 lg:grid-cols-2 items-start lg:max-w-none">
-            {/* 1st testimonial */}
+          {/* Meetups */}
+          <div className="flex flex-wrap gap-12 lg:gap-20 justify-between w-full">
             {videos.map((video, index) => (
-              <div data-aos="fade-down" key={index}>
-                <div className="relative inline-flex flex-col">
-                  <YoutubeVideo title={video.title} videoId={video.videoId} />
-                </div>
+              <div className="flex-col w-full max-w-lg" data-aos="fade-down" key={index}>
+                <YoutubeVideo title={video.title} videoId={video.videoId} />
               </div>
             ))}
           </div>
