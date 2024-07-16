@@ -6,7 +6,7 @@ export default function Hero() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
-        <div className="relative py-[10vh] md:pb-16">
+        <div className="relative py-[15vh] pb-[20vh]">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="flex justify-center">
