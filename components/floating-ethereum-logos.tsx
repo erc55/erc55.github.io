@@ -13,19 +13,11 @@ const colors = {
   darkGreen: 'hsl(120, 100%, 25%)'
 }
 
-const sizes = {
-  tiny: '50px',
-  small: '100px',
-  medium: '150px',
-  large: '200px',
-  huge: '250px'
-}
-
 const logos = [
   {
     top: '8vh',
     left: '70vw',
-    size: sizes.tiny,
+    size: 'tiny',
     color: colors.lightGray,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -35,7 +27,7 @@ const logos = [
   {
     top: '12vh',
     left: '10vw',
-    size: sizes.tiny,
+    size: 'tiny',
     color: colors.lightGray,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -45,7 +37,7 @@ const logos = [
   {
     top: '15vh',
     left: '80vw',
-    size: sizes.medium,
+    size: 'medium',
     color: colors.pink,
     fill: 'none',
     strokeWidth: '0.5',
@@ -55,7 +47,7 @@ const logos = [
   {
     top: '23vh',
     left: '40vw',
-    size: sizes.small,
+    size: 'small',
     color: colors.darkerGray,
     fill: 'none',
     strokeWidth: '0.5',
@@ -65,7 +57,7 @@ const logos = [
   {
     top: '25vh',
     left: '15vw',
-    size: sizes.large,
+    size: 'large',
     color: colors.orange,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -75,7 +67,7 @@ const logos = [
   {
     top: '32vh',
     left: '60vw',
-    size: sizes.medium,
+    size: 'medium',
     color: colors.darkerGray,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -85,7 +77,7 @@ const logos = [
   {
     top: '55vh',
     left: '5vw',
-    size: sizes.huge,
+    size: 'huge',
     color: colors.lightGray,
     fill: 'none',
     strokeWidth: '0.5',
@@ -95,7 +87,7 @@ const logos = [
   {
     top: '55vh',
     left: '70vw',
-    size: sizes.huge,
+    size: 'huge',
     color: colors.darkGreen,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -103,9 +95,9 @@ const logos = [
     animationDuration: '9s'
   },
   {
-    top: '70vh',
+    top: '75vh',
     left: '55vw',
-    size: sizes.small,
+    size: 'small',
     color: colors.yellow,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -115,7 +107,7 @@ const logos = [
   {
     top: '75vh',
     left: '20vw',
-    size: sizes.huge,
+    size: 'huge',
     color: colors.pink,
     fill: 'currentColor',
     strokeWidth: '0',
@@ -125,7 +117,7 @@ const logos = [
   {
     top: '75vh',
     left: '85vw',
-    size: sizes.large,
+    size: 'large',
     color: colors.white,
     fill: 'none',
     strokeWidth: '0.5',
@@ -135,7 +127,7 @@ const logos = [
   {
     top: '85vh',
     left: '5vw',
-    size: sizes.tiny,
+    size: 'tiny',
     color: colors.green,
     fill: 'none',
     strokeWidth: '0.5',
@@ -145,7 +137,7 @@ const logos = [
   {
     top: '90vh',
     left: '60vw',
-    size: sizes.tiny,
+    size: 'tiny',
     color: colors.green,
     fill: 'none',
     strokeWidth: '0.5',
@@ -156,11 +148,11 @@ const logos = [
 
 const FloatingEthereumLogos: React.FC = () => {
   return (
-    <div className="parallax">
+    <div className="relative parallax">
       {logos.map((logo, index) => (
         <div
           key={index}
-          className={' absolute floating'}
+          className={`absolute floating -z-1 ${logo.size}`}
           style={{
             top: logo.top,
             left: logo.left,

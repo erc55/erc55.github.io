@@ -37,6 +37,57 @@
     animation: float ease-in-out infinite;
 }
 
+.floating.tiny {
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  .floating.tiny {
+    width: 50px;
+  }
+}
+
+.floating.small {
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .floating.small {
+    width: 100px;
+  }
+}
+
+.floating.medium {
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  .floating.medium {
+    width: 150px;
+  }
+}
+
+.floating.large {
+  width: 120px;
+}
+
+
+@media (min-width: 768px) {
+  .floating.large {
+    width: 200px;
+  }
+}
+
+.floating.huge {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .floating.huge {
+    width: 250px;
+  }
+}
+
 .parallax {
   position: fixed;
   top: 0;

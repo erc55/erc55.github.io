@@ -22,7 +22,7 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
     <>
       <FloatingEthereumLogos />
 
-      <main className="grow">{children}</main>
+      <main className="grow z-0">{children}</main>
 
       <Footer />
     </>
