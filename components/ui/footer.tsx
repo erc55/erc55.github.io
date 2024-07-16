@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Bottom area */}
-          <div className="md:flex md:items-center md:justify-between">
+          <div className="md:flex md:items-center md:justify-between text-center md:text-left">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="flex justify-center mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
                   href="https://twitter.com/ERC55_"
@@ -52,7 +52,9 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; ERC55. Todos os direitos reservados.</div>
+            <div className="text-gray-400 text-sm md:text-center w-full md:w-auto">
+              &copy; ERC55. Todos os direitos reservados.
+            </div>
           </div>
         </div>
       </div>
