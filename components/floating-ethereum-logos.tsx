@@ -23,38 +23,38 @@ const sizes = {
 
 const logos = [
   {
-    top: '8%',
-    left: '70%',
+    top: '8vh',
+    left: '70vw',
     size: sizes.tiny,
     color: colors.lightGray,
     fill: 'currentColor',
     strokeWidth: '0',
     opacity: '0.2',
-    animationDuration: '3s'
+    animationDuration: '2s'
   },
   {
-    top: '12%',
-    left: '10%',
+    top: '12vh',
+    left: '10vw',
     size: sizes.tiny,
     color: colors.lightGray,
     fill: 'currentColor',
     strokeWidth: '0',
     opacity: '0.2',
-    animationDuration: '7s'
+    animationDuration: '2s'
   },
   {
-    top: '15%',
-    left: '80%',
+    top: '15vh',
+    left: '80vw',
     size: sizes.medium,
     color: colors.pink,
     fill: 'none',
     strokeWidth: '0.5',
     opacity: '0.2',
-    animationDuration: '9s'
+    animationDuration: '5s'
   },
   {
-    top: '23%',
-    left: '40%',
+    top: '23vh',
+    left: '40vw',
     size: sizes.small,
     color: colors.darkerGray,
     fill: 'none',
@@ -63,8 +63,8 @@ const logos = [
     animationDuration: '4s'
   },
   {
-    top: '25%',
-    left: '15%',
+    top: '25vh',
+    left: '15vw',
     size: sizes.large,
     color: colors.orange,
     fill: 'currentColor',
@@ -73,84 +73,84 @@ const logos = [
     animationDuration: '6s'
   },
   {
-    top: '32%',
-    left: '60%',
+    top: '32vh',
+    left: '60vw',
     size: sizes.medium,
     color: colors.darkerGray,
-    fill: 'currentColor',
-    strokeWidth: '0',
-    opacity: '0.2',
-    animationDuration: '2s'
-  },
-  {
-    top: '55%',
-    left: '5%',
-    size: sizes.huge,
-    color: colors.lightGray,
-    fill: 'none',
-    strokeWidth: '0.5',
-    opacity: '0.2',
-    animationDuration: '6s'
-  },
-  {
-    top: '55%',
-    left: '70%',
-    size: sizes.huge,
-    color: colors.darkGreen,
-    fill: 'currentColor',
-    strokeWidth: '0',
-    opacity: '0.2',
-    animationDuration: '8s'
-  },
-  {
-    top: '70%',
-    left: '55%',
-    size: sizes.small,
-    color: colors.yellow,
     fill: 'currentColor',
     strokeWidth: '0',
     opacity: '0.2',
     animationDuration: '5s'
   },
   {
-    top: '75%',
-    left: '20%',
+    top: '55vh',
+    left: '5vw',
     size: sizes.huge,
-    color: colors.pink,
-    fill: 'currentColor',
-    strokeWidth: '0',
-    opacity: '0.2',
-    animationDuration: '2s'
-  },
-  {
-    top: '75%',
-    left: '85%',
-    size: sizes.large,
-    color: colors.white,
+    color: colors.lightGray,
     fill: 'none',
     strokeWidth: '0.5',
     opacity: '0.2',
     animationDuration: '9s'
   },
   {
-    top: '85%',
-    left: '5%',
-    size: sizes.tiny,
-    color: colors.green,
-    fill: 'none',
-    strokeWidth: '0.5',
+    top: '55vh',
+    left: '70vw',
+    size: sizes.huge,
+    color: colors.darkGreen,
+    fill: 'currentColor',
+    strokeWidth: '0',
     opacity: '0.2',
-    animationDuration: '3s'
+    animationDuration: '9s'
   },
   {
-    top: '90%',
-    left: '60%',
+    top: '70vh',
+    left: '55vw',
+    size: sizes.small,
+    color: colors.yellow,
+    fill: 'currentColor',
+    strokeWidth: '0',
+    opacity: '0.2',
+    animationDuration: '4s'
+  },
+  {
+    top: '75vh',
+    left: '20vw',
+    size: sizes.huge,
+    color: colors.pink,
+    fill: 'currentColor',
+    strokeWidth: '0',
+    opacity: '0.2',
+    animationDuration: '9s'
+  },
+  {
+    top: '75vh',
+    left: '85vw',
+    size: sizes.large,
+    color: colors.white,
+    fill: 'none',
+    strokeWidth: '0.5',
+    opacity: '0.2',
+    animationDuration: '6s'
+  },
+  {
+    top: '85vh',
+    left: '5vw',
     size: sizes.tiny,
     color: colors.green,
     fill: 'none',
     strokeWidth: '0.5',
     opacity: '0.2',
-    animationDuration: '4s'
+    animationDuration: '2s'
+  },
+  {
+    top: '90vh',
+    left: '60vw',
+    size: sizes.tiny,
+    color: colors.green,
+    fill: 'none',
+    strokeWidth: '0.5',
+    opacity: '0.2',
+    animationDuration: '2s'
   }
 ]
 
@@ -160,13 +160,12 @@ const FloatingEthereumLogos: React.FC = () => {
       {logos.map((logo, index) => (
         <div
           key={index}
-          className="absolute floating"
+          className={' absolute floating'}
           style={{
             top: logo.top,
             left: logo.left,
-            width: logo.size,
-            height: logo.size,
             color: logo.color,
+            width: logo.size,
             animationDuration: logo.animationDuration
           }}
         >
