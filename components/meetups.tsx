@@ -14,9 +14,9 @@ export default function Meetups() {
           </div>
 
           {/* Meetups */}
-          <div className="flex flex-wrap gap-12 lg:gap-20 justify-between w-full">
+          <div className="grid gap-12 lg:gap-20 grid-cols-1 lg:grid-cols-2 w-full">
             {videos.map((video, index) => (
-              <div className="flex-col w-full max-w-lg" data-aos="fade-down" key={index}>
+              <div className="w-full flex justify-center" data-aos="fade-down" key={index}>
                 <YoutubeVideo title={video.title} videoId={video.videoId} />
               </div>
             ))}
