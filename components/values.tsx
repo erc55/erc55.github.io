@@ -5,7 +5,9 @@ export default function Values() {
         <div>
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Valores</h2>
+            <h2 className="h2 mb-4" data-aos="fade-up">
+              Valores
+            </h2>
           </div>
 
           {/* Items */}
@@ -17,6 +19,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
+              data-aos-delay="100"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +46,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +73,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="500"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +97,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="700"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +117,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
-              data-aos-delay="400"
+              data-aos-delay="900"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +135,7 @@ export default function Values() {
             <div
               className="relative flex flex-col items-center text-center"
               data-aos="fade-up"
-              data-aos-delay="500"
+              data-aos-delay="1100"
               data-aos-anchor="[data-aos-id-blocks]"
             >
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">

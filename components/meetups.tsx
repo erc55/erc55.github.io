@@ -8,7 +8,9 @@ export default function Meetups() {
         <div className="py-32 md:py-20 mt-64">
           {/* Section header */}
           <div className="max-w-2xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Encontros passados</h2>
+            <h2 className="h2 mb-4" data-aos="fade-up">
+              Encontros passados
+            </h2>
           </div>
 
           {/* Meetups */}

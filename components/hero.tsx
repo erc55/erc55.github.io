@@ -13,7 +13,7 @@ export default function Hero() {
               <Image
                 src={ERC55Logo}
                 data-aos="fade-down"
-                data-aos-delay="200"
+                data-aos-delay="100"
                 alt="ERC55 Logo"
                 className="size-10"
                 unoptimized
