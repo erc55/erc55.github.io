@@ -1,5 +1,13 @@
 export default [
   {
+    title: 'Meetup #12 - Tenderly Virtual Testnets - Henrique Barcelos',
+    videoId: 'OxPxlnC4GXc'
+  },
+  {
+    title: 'Meetup #11 - Zero-knowledge Proofs - Maturidade da Tecnologia - Eduardo Morais',
+    videoId: 'NFNCXPa22kk'
+  },
+  {
     title: 'Meetup #10 - Desafios e aprendizados na construção de interfaces na Web3 - Lauro Gripa',
     videoId: 'n-VPKiILTN0'
   },
