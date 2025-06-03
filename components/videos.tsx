@@ -1,5 +1,25 @@
 export default [
   {
+    title: 'Meetup #17 - Ethereum Consensus Layer - Ricardo Santos',
+    videoId: 'NxEzNqO2VZY'
+  },
+  {
+    title: 'Meetup #16 - Fully Homomorphic Encryption & Private Voting - Thiago Rocha',
+    videoId: 'hhJwtteI95A'
+  },
+  {
+    title: 'Meetup #15 - AI Agents - Worms',
+    videoId: '2XGE_rzWIgs'
+  },
+  {
+    title: 'Meetup #14 - Devcon 7 recap - o presente e futuro da Ethereum',
+    videoId: 'wQaM0R5qUXU'
+  },
+  {
+    title: 'Meetup #13 - Provando dados com zkTLS - Danilo Kim',
+    videoId: 'LtwATDnmHPU'
+  },
+  {
     title: 'Meetup #12 - Tenderly Virtual Testnets - Henrique Barcelos',
     videoId: 'OxPxlnC4GXc'
   },
@@ -18,6 +38,10 @@ export default [
   {
     title: 'Meetup #08 - ZKP & Starlight',
     videoId: '8oU6jLs4mFk'
+  },
+  {
+    title: 'Meetup #07 - Workshop ETH SAMBA - Palco Bamba',
+    videoId: 'GHhmv0brdFs'
   },
   {
     title: 'Meetup #06 - Yul & Solidity compiler - Matheus Aguiar (Solidity core team)',
