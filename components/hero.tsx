@@ -5,9 +5,7 @@ export default function Hero() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        {/* Hero content */}
         <div className="relative py-[15vh] pb-[20vh]">
-          {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="flex justify-center">
               <Image
@@ -15,7 +13,8 @@ export default function Hero() {
                 data-aos="fade-down"
                 data-aos-delay="100"
                 alt="ERC55 Logo"
-                className="size-10"
+                height={500}
+                width={500}
                 unoptimized
               />
             </div>
