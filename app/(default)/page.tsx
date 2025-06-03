@@ -5,7 +5,6 @@ export const metadata = {
 
 import Hero from '@/components/hero'
 import Values from '@/components/values'
-import Newsletter from '@/components/newsletter'
 import About from '@/components/about'
 import Meetups from '@/components/meetups'
 
