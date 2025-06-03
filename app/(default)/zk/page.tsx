@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import ERC55Logo from '/public/images/erc55.png'
+import ZKETLogo from '/public/images/ZKET-1.png'
+import EFLogo from '/public/images/EF-logo-white.png'
 import faqData from '@/components/zk-faq'
 
 export const metadata = {
@@ -20,14 +22,38 @@ export default function ZkPage() {
               <h1 className="h1 mb-6" data-aos="fade-up" data-aos-delay="150">
                 Core Program 2025 - Brasil
               </h1>
-              <div className="flex justify-center mb-8">
+              <div className="flex flex-col md:flex-row justify-center items-center mb-8 space-y-4 md:space-y-0 md:space-x-4">
+                <Image
+                  src={ZKETLogo}
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  alt="ZKET Logo"
+                  // height={200}
+                  // width={0}
+                  style={{ width: 'auto', height: 'clamp(150px, 15vw, 200px)' }}
+                  className="object-contain"
+                  unoptimized
+                />
+                <Image
+                  src={EFLogo}
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                  alt="EF Logo"
+                  // height={200}
+                  // width={0}
+                  style={{ width: 'auto', height: 'clamp(100px, 18vw, 130px)' }}
+                  className="object-contain"
+                  unoptimized
+                />
                 <Image
                   src={ERC55Logo}
                   data-aos="fade-down"
-                  data-aos-delay="100"
+                  data-aos-delay="300"
                   alt="ERC55 Logo"
-                  height={300}
-                  width={300}
+                  // height={200}
+                  // width={0}
+                  style={{ width: 'auto', height: 'clamp(200px, 18vw, 230px)' }}
+                  className="object-contain"
                   unoptimized
                 />
               </div>
