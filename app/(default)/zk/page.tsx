@@ -1,0 +1,257 @@
+import Image from 'next/image'
+import ERC55Logo from '/public/images/erc55.png'
+
+export const metadata = {
+  title: 'ERC55 - Zero Knowledge',
+  description: 'Zero Knowledge - Lorem Ipsum'
+}
+
+export default function ZkPage() {
+  return (
+    <>
+      {/* Hero Section */}
+      <section>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+          {/* Hero content */}
+          <div className="relative py-[15vh] pb-[20vh]">
+            {/* Section header */}
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+              <h1 className="h1 mb-4" data-aos="fade-up" data-aos-delay="150">
+                ZK PAGE
+              </h1>
+              <div className="flex justify-center">
+                <Image
+                  src={ERC55Logo}
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  alt="ERC55 Logo"
+                  height={500}
+                  width={500}
+                  unoptimized
+                />
+              </div>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="py-32">
+            {/* Section header */}
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+              <h1 className="h1 mb-4" data-aos="fade-up">
+                Ut enim ad minim veniam
+              </h1>
+            </div>
+
+            {/* Items */}
+            <div className="grid gap-20">
+              {/* 1st item */}
+              <div className="md:grid md:grid-cols-12 items-center">
+                {/* Content */}
+                <div
+                  className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                  data-aos="fade-right"
+                >
+                  <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                    <h2 className="h2 mb-3">Duis aute irure dolor</h2>
+                    <p className="text-xl text-gray-400 mb-4">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 2nd item */}
+              <div className="md:grid md:grid-cols-12 items-center">
+                {/* Image */}
+                <div
+                  className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                  data-aos="fade-up"
+                ></div>
+                {/* Content */}
+                <div
+                  className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                  data-aos="fade-left"
+                >
+                  <div className="md:pl-4 lg:pl-12 xl:pl-16 text-right">
+                    <h2 className="h2 mb-3">Excepteur sint occaecat</h2>
+                    <p className="text-xl text-gray-400">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                      totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                      dicta sunt explicabo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Values Section */}
+      <section>
+        <div className="max-w-6xl mx-auto pb-4 sm:pb-6">
+          <div>
+            {/* Section header */}
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+              <h2 className="h2 mb-4" data-aos="fade-up">
+                Nemo enim ipsam
+              </h2>
+            </div>
+
+            {/* Items */}
+            <div
+              className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
+              data-aos-id-blocks
+            >
+              {/* 1st item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <path
+                    className="stroke-current text-purple-100"
+                    d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924"
+                    strokeLinecap="square"
+                    strokeWidth="2"
+                    fill="none"
+                    fillRule="evenodd"
+                  />
+                  <path
+                    className="stroke-current text-purple-300"
+                    d="M43 42h-9M43 37h-9"
+                    strokeLinecap="square"
+                    strokeWidth="2"
+                  />
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Voluptatem accusantium</h4>
+              </div>
+
+              {/* 2nd item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="300"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
+                  <path
+                    className="stroke-current text-purple-100"
+                    strokeWidth="2"
+                    strokeLinecap="square"
+                    d="M21 23h22v18H21z"
+                    fill="none"
+                    fillRule="evenodd"
+                  />
+                  <path
+                    className="stroke-current text-purple-300"
+                    d="M26 28h12M26 32h12M26 36h5"
+                    strokeWidth="2"
+                    strokeLinecap="square"
+                  />
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Doloremque laudantium</h4>
+              </div>
+
+              {/* 3rd item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                    <path
+                      className="stroke-current text-purple-300"
+                      d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"
+                    />
+                    <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3" />
+                    <path
+                      className="stroke-current text-purple-100"
+                      d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"
+                    />
+                  </g>
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Totam rem aperiam</h4>
+              </div>
+
+              {/* 4th item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="700"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                    <path
+                      className="stroke-current text-purple-100"
+                      d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"
+                    />
+                    <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
+                  </g>
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Eaque ipsa quae</h4>
+              </div>
+
+              {/* 5th item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="900"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                    <ellipse className="stroke-current text-purple-300" cx="11" cy="11" rx="5.5" ry="11" />
+                    <path className="stroke-current text-purple-100" d="M11 0v22M0 11h22" />
+                    <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
+                  </g>
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Ab illo inventore</h4>
+              </div>
+
+              {/* 6th item */}
+              <div
+                className="relative flex flex-col items-center text-center"
+                data-aos="fade-up"
+                data-aos-delay="1100"
+                data-aos-anchor="[data-aos-id-blocks]"
+              >
+                <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                    <path
+                      className="stroke-current text-purple-100"
+                      d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
+                    />
+                    <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
+                  </g>
+                </svg>
+                <h4 className="h4 font-semibold mb-2">Veritatis et quasi</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
