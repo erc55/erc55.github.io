@@ -4,6 +4,7 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero'
+import NoticeBanner from '@/components/notice-banner'
 import Values from '@/components/values'
 import About from '@/components/about'
 import Meetups from '@/components/meetups'
@@ -11,6 +12,7 @@ import Meetups from '@/components/meetups'
 export default function Home() {
   return (
     <>
+      <NoticeBanner />
       <Hero />
       <About />
       <Values />
