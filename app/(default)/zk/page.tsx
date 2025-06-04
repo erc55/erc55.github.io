@@ -122,7 +122,7 @@ export default function ZkPage() {
                   <li>• Aprofundar-se em conceitos como Zero-Knowledge Proofs (ZKP), Fully Homomorphic Encryption (FHE) e Multiparty Computation (MPC), juntamente com os fundamentos da criptografia moderna.</li>
                   <li>• Contribuir com projetos open-source reais, aplicando o conhecimento adquirido.</li>
                   <li>• Participar de mentorias com especialistas da indústria global e da Ethereum Foundation.</li>
-                  <li>• Ter a chance de receber grants para pesquisas futuras e desenvolver suas próprias ideias.</li>
+                  <li>• Ter a chance de receber grants para pesquisas futuras e desenvolver suas próprias ideias com ProgCrypto.</li>
                   <li>• Construir uma comunidade forte e duradoura de entusiastas e desenvolvedores de ProgCrypto no Brasil.</li>
                 </ul>
 
@@ -185,7 +185,7 @@ export default function ZkPage() {
               </ul>
 
               <p className="text-xl text-gray-200">
-                Haverá avaliações finais e feedbacks. A Ethereum Foundation considera oportunidades 
+                A Ethereum Foundation considera oportunidades 
                 para continuação de pesquisas e contribuições.
               </p>
             </div>
@@ -214,13 +214,13 @@ export default function ZkPage() {
                 <div data-aos="fade-up" data-aos-delay="200">
                   <h3 className="text-3xl font-bold text-white mb-4">Perfil do Participante:</h3>
                   <p className="text-xl text-gray-200 mb-4">
-                    Ideal para quem busca uma imersão profunda e prática em criptografia programável:
+                    Ideal para quem tem disponibilidade de se dedicar aos estudos e projetos durante as 6 semanas, e que busca uma imersão prática em ProgCrypto, junto com o grupo:
                   </p>
                   <ul className="text-xl text-gray-200 space-y-3">
                     <li>• Interesse genuíno em criptografia teórica e aplicada, e blockchain</li>
                     <li>• Estudantes ou pesquisadores nas áreas de criptografia, matemática ou computação</li>
                     <li>• Experiência prévia com programação e blockchain</li>
-                    <li>• Grande interesse e disposição para contribuir com projetos open-source ou criar soluções inovadoras</li>
+                    <li>• Grande interesse e disposição para contribuir com projetos open-source ou criar novas soluções</li>
                     <li>• Capacidade de dedicação intensiva durante as 6 semanas (modelo híbrido: presencial + online), com uma estimativa de 12 horas semanais de estudo independente, além das sessões.</li>
                     <li>• Conforto em inglês, pois muitos materiais básicos utilizam o idioma</li>
                   </ul>
@@ -230,14 +230,14 @@ export default function ZkPage() {
                 <div data-aos="fade-up" data-aos-delay="300">
                   <h3 className="text-3xl font-bold text-white mb-4">Perfil do Lead Mentor:</h3>
                   <p className="text-xl text-gray-200 mb-4">
-                    Também estamos buscando mentores, sejam pesquisadores ou profissionais da indústria, 
-                    com expertise em áreas relacionadas à Criptografia Programável.
+                    Caso você tenha interesse em se envolver, porém não tenha disponibilidade para participar durante todas as 6 semanas, você pode se candidatar para ser Lead Mentor.
+                    Estamos buscando mentores, sejam pesquisadores ou profissionais da indústria, com expertise em áreas relacionadas à Criptografia Programável.
                   </p>
                   <ul className="text-xl text-gray-200 space-y-3">
                     <li>• Participar ativamente na semana do seu tema de expertise</li>
                     <li>• Estar junto com a turma, tirar dúvidas, conduzir workshops</li>
                     <li>• Viver intensamente a semana para explorar todas as possibilidades do tema</li>
-                    <li>• Encorajamos a todos a participar do programa como participantes, e aplicar para Lead Mentor somente se de fato não for possível participar durante todas as 6 semanas.</li>
+                    <li><strong>OBS:</strong> Encorajamos a todos a participar do programa como participantes, e aplicar para Lead Mentor somente se de fato não for possível participar durante todas as 6 semanas.</li>
                   </ul>
                 </div>
               </div>
