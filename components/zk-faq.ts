@@ -14,7 +14,7 @@ const faqData: FAQItem[] = [
   },
   {
     q: "Quantas horas por semana preciso estudar?",
-    a: "A dedicação necessária pode variar de acordo com seu conhecimento e experiência individual. No entanto, recomendamos cerca de 20 horas por semana para estudo independente, além das sessões."
+    a: "A dedicação necessária pode variar de acordo com seu conhecimento e experiência individual. No entanto, recomendamos cerca de 6 horas por semana para estudo independente, além das sessões presenciais e online."
   },
   {
     q: "Qual idioma será usado?",

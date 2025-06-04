@@ -221,7 +221,7 @@ export default function ZkPage() {
                     <li>• Estudantes ou pesquisadores nas áreas de criptografia, matemática ou computação</li>
                     <li>• Experiência prévia com programação e blockchain</li>
                     <li>• Grande interesse e disposição para contribuir com projetos open-source ou criar novas soluções</li>
-                    <li>• Capacidade de dedicação intensiva durante as 6 semanas (modelo híbrido: presencial + online), com uma estimativa de 12 horas semanais de estudo independente, além das sessões.</li>
+                    <li>• Capacidade de dedicação intensiva durante as 6 semanas (modelo híbrido: presencial + online), com uma estimativa de 6 horas semanais de estudo independente, além das sessões.</li>
                     <li>• Conforto em inglês, pois muitos materiais básicos utilizam o idioma</li>
                   </ul>
                 </div>
@@ -289,7 +289,8 @@ export default function ZkPage() {
               <div className="bg-gray-800/50 rounded-lg p-8">
                 <h3 className="text-3xl font-bold text-white mb-6 text-center">Cronograma (Provisório)</h3>
                 <p className="text-xl text-gray-200 mb-6 text-center">
-                  <strong>Local:</strong> São Paulo (capital). O local e horário exato serão divulgados em breve.<br />
+                  <strong>Local:</strong> São Paulo (capital). O local exato será divulgado em breve.<br />
+                  <strong>Horário:</strong> Sábado, das 9h às 18h. O horário exato será divulgado em breve.<br />
                   <strong>Duração:</strong> 8 semanas no total (2 semanas de pré-programa online + 6 semanas híbridas)
                 </p>
 
