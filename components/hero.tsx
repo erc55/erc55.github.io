@@ -20,9 +20,9 @@ export default function Hero() {
                 className='p-10'
               />
             </div>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+            <h2 className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
               Construindo o Jardim Infinito...
-            </p>
+            </h2>
           </div>
         </div>
       </div>
