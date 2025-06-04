@@ -98,3 +98,15 @@
   pointer-events: none;
   transform: translateZ(0);
 }
+
+@font-face {
+  font-family: 'Roca One';
+  src: url('/fonts/roca-one-regular.ttf') format('truetype');
+  font-display: swap; /* Ensures text is visible while the font loads */
+  font-weight: normal; /* or your desired weight */
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roca One', sans-serif;
+}

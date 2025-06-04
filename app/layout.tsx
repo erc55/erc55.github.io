@@ -5,6 +5,7 @@ import { Inter, Architects_Daughter } from 'next/font/google'
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  weight: '400',
   display: 'swap'
 })
 
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+        className={`${architects_daughter.variable} ${inter.variable} font-inter antialiased bg-black text-gray-200 tracking-tight`}
       >
         <div className="flex flex-col min-h-screen overflow-hidden">{children}</div>
       </body>

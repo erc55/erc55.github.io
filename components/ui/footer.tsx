@@ -13,7 +13,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="https://twitter.com/ERC55_"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Twitter"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://github.com/erc55"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Github"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://www.youtube.com/@ERC55jardiminfinito"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="YouTube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="mailto:erc55jardiminfinito@gmail.com"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="E-mail"
                   target="_blank"
                   rel="noopener noreferrer"
