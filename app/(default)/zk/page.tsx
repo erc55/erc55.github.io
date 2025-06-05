@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import ERC55Logo from '/public/images/erc55.png'
+// import ERC55Logo from '/public/images/erc55.png'
+import ERC55LogoSVG from '/public/images/erc55_logo_white.svg'
 import ZKETLogo from '/public/images/ZKET-1.png'
 import EFLogo from '/public/images/EF-logo-white.png'
 import faqData from '@/components/zk-faq'
@@ -46,13 +47,13 @@ export default function ZkPage() {
                   unoptimized
                 />
                 <Image
-                  src={ERC55Logo}
+                  src={ERC55LogoSVG}
                   data-aos="fade-down"
                   data-aos-delay="300"
                   alt="ERC55 Logo"
                   // height={200}
                   // width={0}
-                  style={{ width: 'auto', height: 'clamp(200px, 18vw, 230px)' }}
+                  style={{ width: 'auto', height: 'clamp(100px,18vw, 130px)' }}
                   className="object-contain"
                   unoptimized
                 />
@@ -97,8 +98,8 @@ export default function ZkPage() {
 
             {/* Content */}
             <div className="max-w-4xl mx-auto prose prose-lg prose-invert">
-              <div data-aos="fade-up" data-aos-delay="100">
-                <p className="text-2xl text-gray-200 mb-8">
+              <div data-aos="fade-up" data-aos-delay="10">
+                <p className="text-2xl text-gray-200 mb-8" >
                   A ERC55 tem o prazer de anunciar que o Brasil sediará, pela primeira vez, o Core Program, 
                   um programa educacional intensivo da Ethereum Foundation, desenvolvido pelo ZK Education Team (ZKET).
                 </p>
@@ -126,11 +127,11 @@ export default function ZkPage() {
                   <li>• Construir uma comunidade forte e duradoura de entusiastas e desenvolvedores de ProgCrypto no Brasil.</li>
                 </ul>
 
-                <div className="bg-purple-900/20 border border-purple-600/30 rounded-lg p-6 mb-8">
+                <div className="bg-purple-600/20 border border-purple-600/30 rounded-lg p-6 mb-8">
                   <p className="text-xl text-gray-200">
                     <strong>Veja os projetos do ano passado:</strong> 
                     <a href="https://github.com/ethereum/zket-core-program/tree/main/2024/contributions" 
-                       className="text-purple-400 hover:text-purple-300 ml-2" 
+                       className="text-purple-400 hover:text-gray-300 ml-2" 
                        target="_blank" rel="noopener noreferrer">
                       Contributions 2024
                     </a>
@@ -437,7 +438,7 @@ export default function ZkPage() {
               </p>
               <a 
                 href="mailto:erc55jardiminfinito@gmail.com" 
-                className="text-purple-400 hover:text-purple-300 text-2xl font-semibold"
+                className="text-purple-400 hover:text-gray-300 text-2xl font-semibold"
                 data-aos="fade-up" 
                 data-aos-delay="200"
               >

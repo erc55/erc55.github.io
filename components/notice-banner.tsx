@@ -5,7 +5,7 @@ export default function NoticeBanner() {
     <section className="py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mx-auto">
-          <div className="bg-black/20 backdrop-blur-sm rounded-2xl border border-white/10 p-6 shadow-lg">
+          <div className=" bg-gray-900 backdrop-blur-sm rounded-2xl border border-white/10 p-6 shadow-lg">
             <div className="flex items-center justify-center text-center">
               <div className="flex items-center">
                 <div className="flex-shrink-0 mr-3">
