@@ -306,12 +306,12 @@ export default function ZkPage() {
                   <div>
                     <h4 className="text-2xl font-semibold text-purple-400 mb-3">Core Program</h4>
                     <ul className="text-xl text-gray-200 space-y-2">
-                      <li>• 27/07: Semana 1 (Híbrido)</li>
-                      <li>• 03/08: Semana 2 (Híbrido)</li>
-                      <li>• 10/08: Semana 3 (Híbrido)</li>
-                      <li>• 17/08: Semana 4 (Híbrido)</li>
-                      <li>• 24/08: Semana 5 (Híbrido)</li>
-                      <li>• 31/08: Semana 6 (Híbrido)</li>
+                      <li>• 27/07 - 02/08: Semana 1 (Híbrido)</li>
+                      <li>• 03/08 - 09/08: Semana 2 (Híbrido)</li>
+                      <li>• 10/08 - 16/08: Semana 3 (Híbrido)</li>
+                      <li>• 17/08 - 23/08: Semana 4 (Híbrido)</li>
+                      <li>• 24/08 - 30/08: Semana 5 (Híbrido)</li>
+                      <li>• 31/08 - 06/09: Semana 6 (Híbrido)</li>
                     </ul>
                   </div>
                 </div>
