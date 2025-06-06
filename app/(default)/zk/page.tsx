@@ -299,8 +299,8 @@ export default function ZkPage() {
                   <div>
                     <h4 className="text-2xl font-semibold text-purple-400 mb-3">Pré-Programa</h4>
                     <ul className="text-xl text-gray-200 space-y-2">
-                      <li>• 14/07: Semana 1 (Online)</li>
-                      <li>• 21/07: Semana 2 (Online)</li>
+                      <li>• 13/07 - 19/07: Semana 1 (Online)</li>
+                      <li>• 20/07 - 26/07: Semana 2 (Online)</li>
                     </ul>
                   </div>
                   <div>
