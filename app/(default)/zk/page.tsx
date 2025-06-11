@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ERC55LogoSVG from '/public/images/erc55_logo_white.svg'
 import ZKETLogo from '/public/images/ZKET-1.png'
 import EFLogo from '/public/images/EF-logo-white.png'
+import EthLatamLogo from '/public/images/ethlatam-logo.png'
 import faqData from '@/components/zk-faq'
 
 export const metadata = {
@@ -386,14 +387,11 @@ export default function ZkPage() {
           <div className="py-16">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="h2 mb-8" data-aos="fade-up">
-                Participantes
+                Participantes e Mentores
               </h2>
               <div className="bg-gray-800/50 rounded-lg p-8" data-aos="fade-up" data-aos-delay="100">
                 <p className="text-lg text-gray-200 italic">
                   Esta seção será preenchida de acordo com a confirmação dos participantes.
-                </p>
-                <p className="text-lg text-gray-300 mt-4">
-                  Foto, nome e mini bio dos confirmados
                 </p>
               </div>
             </div>
@@ -463,6 +461,41 @@ export default function ZkPage() {
               <p className="text-2xl text-purple-400 font-semibold" data-aos="fade-up" data-aos-delay="200">
                 É só o começo!
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Partners & Supporters Section */}
+      <section>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="py-16">
+            <div className="max-w-3xl mx-auto text-center pb-12">
+              <h2 className="h2 mb-6" data-aos="fade-up">
+                Parceiros e Apoiadores
+              </h2>
+            </div>
+            
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+              <div data-aos="fade-up" data-aos-delay="100">
+                <Image
+                  src={EFLogo}
+                  alt="Ethereum Foundation"
+                  style={{ width: 'auto', height: 'clamp(80px, 12vw, 120px)' }}
+                  className="object-contain filter brightness-90 hover:brightness-100 transition-all duration-300"
+                  unoptimized
+                />
+              </div>
+              
+              <div data-aos="fade-up" data-aos-delay="400">
+                <Image
+                  src={EthLatamLogo}
+                  alt="Ethereum LATAM"
+                  style={{ width: 'auto', height: 'clamp(80px, 12vw, 120px)' }}
+                  className="object-contain filter brightness-90 hover:brightness-100 transition-all duration-300"
+                  unoptimized
+                />
+              </div>
             </div>
           </div>
         </div>
