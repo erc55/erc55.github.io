@@ -223,8 +223,8 @@ export default function ZkPage() {
                     <li>• Estudantes ou pesquisadores nas áreas de criptografia, matemática ou computação</li>
                     <li>• Experiência prévia com programação e blockchain</li>
                     <li>• Grande interesse e disposição para contribuir com projetos open-source ou criar novas soluções</li>
-                    <li>• Capacidade de dedicação intensiva durante as 6 semanas (modelo híbrido: presencial + online), com uma estimativa de 6 horas semanais de estudo independente, além das sessões.</li>
-                    <li>• Conforto em inglês, pois muitos materiais básicos utilizam o idioma</li>
+                    <li>• Capacidade de dedicação durante as 6 semanas (modelo híbrido: presencial + online), com uma estimativa de 10 horas semanais de estudo independente, além das sessões.</li>
+                    <li>• Conforto em inglês, pois muitos materiais base utilizam o idioma</li>
                   </ul>
                 </div>
 
@@ -232,14 +232,12 @@ export default function ZkPage() {
                 <div data-aos="fade-up" data-aos-delay="300">
                   <h3 className="text-3xl font-bold text-white mb-4">Perfil do Lead Mentor:</h3>
                   <p className="text-xl text-gray-200 mb-4">
-                    Caso você tenha interesse em se envolver, porém não tenha disponibilidade para participar durante todas as 6 semanas, você pode se candidatar para ser Lead Mentor.
+                    Caso você tenha interesse em se envolver no programa e possua experiência relevante em algum dos tópicos abordados, porém não tenha disponibilidade para participar durante todas as 6 semanas, você pode se candidatar para ser Lead Mentor.
                     Estamos buscando mentores, sejam pesquisadores ou profissionais da indústria, com expertise em áreas relacionadas à Criptografia Programável.
                   </p>
                   <ul className="text-xl text-gray-200 space-y-3">
-                    <li>• Participar ativamente na semana do seu tema de expertise</li>
+                    <li>• Participar ativamente na semana do seu tema de expertise, para explorar todas as possibilidades do tema</li>
                     <li>• Estar junto com a turma, tirar dúvidas, conduzir workshops</li>
-                    <li>• Viver intensamente a semana para explorar todas as possibilidades do tema</li>
-                    <li><strong>OBS:</strong> Encorajamos a todos a participar do programa como participantes, e aplicar para Lead Mentor somente se de fato não for possível participar durante todas as 6 semanas.</li>
                   </ul>
                 </div>
               </div>
@@ -269,7 +267,7 @@ export default function ZkPage() {
                   <h3 className="text-3xl font-bold text-white mb-4">Formato Híbrido:</h3>
                   <ul className="text-xl text-gray-200 space-y-4">
                     <li>• <strong>Sessões Online:</strong> Estudos e debates semanais, com horários a serem definidos futuramente</li>
-                    <li>• <strong>Encontros Presenciais:</strong> A "magia" do programa acontece nos encontros presenciais, aos <strong>sábados</strong>, de <strong>9h às 18h</strong>, em <strong>São Paulo</strong></li>
+                    <li>• <strong>Encontros Presenciais:</strong> A <em>magia</em> do programa acontece nos encontros presenciais, aos <strong>sábados</strong>, de <strong>9h às 18h</strong>, em <strong>São Paulo</strong></li>
                   </ul>
                 </div>
 
@@ -382,7 +380,7 @@ export default function ZkPage() {
       </section>
 
       {/* Participants Section */}
-      <section>
+      {/* <section>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-16">
             <div className="max-w-3xl mx-auto text-center">
@@ -397,7 +395,7 @@ export default function ZkPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section>
