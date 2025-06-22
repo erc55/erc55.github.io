@@ -432,14 +432,23 @@ export default function ZkPage() {
               <p className="text-2xl text-gray-200 mb-8" data-aos="fade-up" data-aos-delay="100">
                 Caso tenha dúvidas ou sugestões, envie um e-mail para:
               </p>
-              <a 
-                href="mailto:erc55jardiminfinito@gmail.com" 
-                className="text-purple-400 hover:text-gray-300 text-2xl font-semibold"
-                data-aos="fade-up" 
-                data-aos-delay="200"
-              >
-                erc55jardiminfinito@gmail.com
-              </a>
+              <div className="space-y-4" data-aos="fade-up" data-aos-delay="200">
+                <a 
+                  href="mailto:hi@erc55.xyz" 
+                  className="text-purple-400 hover:text-gray-300 text-2xl font-semibold block"
+                >
+                  hi@erc55.xyz
+                </a>
+                <p className="text-2xl text-gray-200 mb-8">
+                  ou
+                </p>
+                <a 
+                  href="mailto:erc55jardiminfinito@gmail.com" 
+                  className="text-purple-400 hover:text-gray-300 text-2xl font-semibold block"
+                >
+                  erc55jardiminfinito@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </div>
