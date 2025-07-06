@@ -62,7 +62,7 @@ export default function ZkPage() {
               <p className="text-2xl text-gray-300 mb-8" data-aos="fade-up" data-aos-delay="200">
                 Um programa educacional da Ethereum Foundation, sediado pela primeira vez no Brasil pela ERC55
               </p>
-              <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-6 mb-6 flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
+              {/* <div className="bg-yellow-900/20 border border-yellow-600/30 rounded-lg p-6 mb-6 flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
                 <svg className="w-6 h-6 text-yellow-500 mb-3" fill="currentColor" viewBox="0 0 20 20">
                   <title>Alerta</title>
                   <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
@@ -72,7 +72,7 @@ export default function ZkPage() {
                   <br />
                   Todas as informações que você precisa estão aqui.
                 </p>
-              </div>
+              </div> */}
               
               {/* Downward arrow to indicate more content */}
               <div className="flex justify-center">
@@ -287,10 +287,10 @@ export default function ZkPage() {
               </div>
 
               <div className="bg-gray-800/50 rounded-lg p-8">
-                <h3 className="text-3xl font-bold text-white mb-6 text-center">Cronograma (Provisório)</h3>
+                <h3 className="text-3xl font-bold text-white mb-6 text-center">Cronograma</h3>
                 <p className="text-xl text-gray-200 mb-6 text-center">
-                  <strong>Local:</strong> São Paulo (capital). O local exato será divulgado em breve.<br />
-                  <strong>Horário:</strong> Sábado, das 9h às 18h. O horário exato será divulgado em breve.<br />
+                  <strong>Local:</strong> São Paulo (capital).<br />
+                  <strong>Horário:</strong> Sábado, das 9h às 18h.<br />
                   <strong>Duração:</strong> 8 semanas no total (2 semanas de pré-programa online + 6 semanas híbridas)
                 </p>
 
@@ -305,12 +305,12 @@ export default function ZkPage() {
                   <div>
                     <h4 className="text-2xl font-semibold text-purple-400 mb-3">Core Program</h4>
                     <ul className="text-xl text-gray-200 space-y-2">
-                      <li>• 27/07 - 02/08: Semana 1 (Híbrido)</li>
-                      <li>• 03/08 - 09/08: Semana 2 (Híbrido)</li>
-                      <li>• 10/08 - 16/08: Semana 3 (Híbrido)</li>
-                      <li>• 17/08 - 23/08: Semana 4 (Híbrido)</li>
-                      <li>• 24/08 - 30/08: Semana 5 (Híbrido)</li>
-                      <li>• 31/08 - 06/09: Semana 6 (Híbrido)</li>
+                      <li>• 27/07 - 02/08: Semana 1</li>
+                      <li>• 03/08 - 09/08: Semana 2</li>
+                      <li>• 10/08 - 16/08: Semana 3</li>
+                      <li>• 17/08 - 23/08: Semana 4</li>
+                      <li>• 24/08 - 30/08: Semana 5</li>
+                      <li>• 31/08 - 06/09: Semana 6</li>
                     </ul>
                   </div>
                 </div>
@@ -355,7 +355,7 @@ export default function ZkPage() {
 
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-white mb-6">Links para Inscrição</h3>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
                     href="https://forms.gle/FPeXVkbeoND337NL8" 
                     target="_blank" 
@@ -372,7 +372,10 @@ export default function ZkPage() {
                   >
                     Formulário para Lead Mentor
                   </a>
-                </div>
+                </div> */}
+                <p className="text-2xl text-gray-200 mb-8 text-center">
+                  Inscrições encerradas.
+                </p>
               </div>
             </div>
           </div>
@@ -434,19 +437,19 @@ export default function ZkPage() {
               </p>
               <div className="space-y-4" data-aos="fade-up" data-aos-delay="200">
                 <a 
-                  href="mailto:hi@erc55.xyz" 
+                  href="mailto:erc55jardiminfinito@gmail.com" 
                   className="text-purple-400 hover:text-gray-300 text-2xl font-semibold block"
                 >
-                  hi@erc55.xyz
+                  erc55jardiminfinito@gmail.com
                 </a>
                 <p className="text-2xl text-gray-200 mb-8">
                   ou
                 </p>
                 <a 
-                  href="mailto:erc55jardiminfinito@gmail.com" 
+                  href="mailto:hi@erc55.xyz" 
                   className="text-purple-400 hover:text-gray-300 text-2xl font-semibold block"
                 >
-                  erc55jardiminfinito@gmail.com
+                  hi@erc55.xyz
                 </a>
               </div>
             </div>
