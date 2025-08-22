@@ -60,6 +60,13 @@ export default function LinksPage() {
               description="Siga @ERC55_ para atualizações e novidades"
               external
             />
+
+            <LinkItem
+              href="https://www.instagram.com/_erc55/"
+              title="Instagram"
+              description="Siga @_erc55 no Instagram"
+              external
+            />
             
             <LinkItem
               href="https://discord.gg/WGtRa4yzgA"
